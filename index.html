@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Birds Bakery Forms</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='28' font-size='28'>🐦</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=2">
+</head>
+<body>
+  <nav id="mainNav">
+    <button onclick="App.home()" class="active" data-view="home">Home</button>
+    <button onclick="App.builder()" data-view="builder">Form Builder</button>
+    <button onclick="App.upload()" data-view="upload">Import</button>
+  </nav>
+
+  <div class="app-shell">
+    <div id="app"></div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="js/seed-data.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

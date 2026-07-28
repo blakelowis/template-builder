@@ -1,0 +1,14 @@
+{
+  "name": "Birds Store Visit",
+  "short_name": "Store Visit",
+  "description": "Store visit reporting and template builder PWA",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f8f6f0",
+  "theme_color": "#6E8E6D",
+  "orientation": "any",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
