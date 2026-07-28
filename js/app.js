@@ -1138,7 +1138,7 @@ function toast(msg,type){
 
 (function init(){
   if('caches' in window) caches.keys().then(function(ks){ ks.filter(function(k){return k!=='birds-store-visit-v4';}).forEach(function(k){caches.delete(k);}); });
-  if('serviceWorker' in navigator) navigator.serviceWorker.getRegistrations().then(function(rs){ rs.forEach(function(r){r.unregister();}); navigator.serviceWorker.register('sw.js?v=4'); });
+  if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
   navigate('home');
 })();
 
